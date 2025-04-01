@@ -1,3 +1,19 @@
 1) la commande git status affiche la branche ou l'on ce situe ,les Untracked filed les fichier à "add" et le fait qu'on a aucun ficher à "commit"
 
-2)
+2)git status met en vert les ficher pouvant être commit et en rouge mon ficher réponse que je ,n'est pas encore add
+
+3)dans le espace staging area
+
+4)echap 
+:wq
+appuyé entrée
+
+5)git log
+
+6)git diff --staged compare les ficher entre la version dans le working directory et la staging area 
+git diff compare seulement dans le working directory
+
+7)git show affiche un commit precis ou l'on precise le hash du commit
+git status montre l'etat des fichier si les dernier modif sont add ou commmit ou aucun des deux 
+git diff montre la difference entre la difference la nouvelle et l'ancienne version d'un ficher  
+git log montre l'ensemble des different commit ainsi que leur commentaire

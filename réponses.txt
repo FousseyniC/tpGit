@@ -1,0 +1,3 @@
+1) la commande git status affiche la branche ou l'on ce situe ,les Untracked filed les fichier à "add" et le fait qu'on a aucun ficher à "commit"
+
+2)

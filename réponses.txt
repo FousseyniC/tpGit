@@ -17,3 +17,52 @@ git diff compare seulement dans le working directory
 git status montre l'etat des fichier si les dernier modif sont add ou commmit ou aucun des deux 
 git diff montre la difference entre la difference la nouvelle et l'ancienne version d'un ficher  
 git log montre l'ensemble des different commit ainsi que leur commentaire
+
+
+8) la commande me dit que mes deux fichier peuvent être commit
+
+9)la commande git reset retire de la zone Staring area le fichier que l'on veut et le remet dans la zone working directory
+
+10)git status pour voir l'etat des fichier , le ficher brouillon.txt est afficher en rouge donc n'a pas été add ni commmit
+
+11)git status
+
+12)git status
+git log --oneline
+
+13)git clone https://github.com/PaulineLam24/TP-Git.git
+
+14) un seul fichier le readme(commande utilisé ls)
+
+on trouve comme commit:	Correctif README.md
+			Ajout dans README.md
+			Initial commit
+
+git log --oneline
+
+15)git diff 9b68 f7a7
+
+diff --git a/README.md b/README.md
+index cd6b588..4cb5825 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+-# TP-Git
+\ No newline at end of file
++# TP-Git
++# Ceci est un fichier README.md...
+
+ git diff f7a7 f813
+diff --git a/README.md b/README.md
+index 4cb5825..b99c86f 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,3 @@
+ # TP-Git
+-# Ceci est un fichier README.md...
++
++Ceci est un fichier README.md...
+
+
+
+
